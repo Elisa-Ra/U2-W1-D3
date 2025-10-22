@@ -1,3 +1,15 @@
+main h1,
+main h2 {
+  margin-left: 20px;
+  color: #612810;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* spazio tra le card */
+  justify-content: center; /* oppure space-between */
+}
 .container_card {
   display: flex;
   flex-direction: column;
